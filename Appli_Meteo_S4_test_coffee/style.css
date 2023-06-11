@@ -1,0 +1,36 @@
+body{
+    background: rgb(241, 225, 227);
+}
+
+
+.box-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#city{
+    background-color: rgba(246, 219, 180, 0.53);
+}
+#temp{
+    background-color: rgba(234, 188, 226, 0.53);
+}
+#humidity{
+    background-color: rgba(144, 189, 199, 0.53);
+}
+#wind{
+    background-color: rgba(228, 244, 244, 0.53);
+}
